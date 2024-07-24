@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "contaberta",
+    "name": "ContAberta",
     "slug": "contaberta",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.escolaberta.contaberta"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "626dbd1b-e3f9-4fce-b901-f5d93486cb79"
+      }
     }
   }
 }
